@@ -1,16 +1,19 @@
-# sudo as Touch ID
- Simple Bash Script to add Touch ID as a sudo command verification method. 
+# sudo with Touch ID Authentication
 
- This gets replaced with every update because AppleTM, so update macOS? RE-RUN BRUH!
+A simple Bash Script to enhance your macOS experience by enabling Touch ID as a sudo command verification method. 
 
- ### Requirements:
+### Requirements:
 
- - A working Mac with Touch ID, no pun intended, I like Hacks but **bro, no**
+- A Mac with Touch ID support (because why not make your Mac even cooler?)
 
- - A working brain, I hope.
+- An active brain, but don't worry; we won't ask you any tricky questions.
 
- ### Usage:
+### Usage:
 
- - [Download](sudo_TouchID.sh), double click and run. 
- 
-**Needs your super secret password sadly, what a bummer.**
+1. [Download the script](sudo_TouchID.sh).
+
+2. Double-click to run it.
+
+3. Brace yourself for the magic of Touch ID authentication!
+
+**Please be aware that your super-secret password is still required for security reasons. Safety first!**
