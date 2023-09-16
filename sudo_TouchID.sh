@@ -3,7 +3,9 @@
 update_sudo_pam() {
   # Define the paths for sudo PAM configuration files
   SUDO_PAM="/etc/pam.d/sudo"
-  CUSTOM_SUDO_PAM="/etc/pam.d/sudo_custom"
+  SUDO_LOCAL="/etc/pam.d/sudo_local"
+  SUDO_LOCAL_TEMPLATE="/etc/pam.d/sudo_local.template"
+  CUSTOM_SUDO_PAM="/etc/pam.d/sudo_custom"  # Add this line to define the custom PAM file
 
   # Check if the macOS version is Sonoma (macOS 14) or newer
   if [[ "$(sw_vers -productVersion)" > "14."* ]]; then
